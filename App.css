@@ -1,0 +1,41 @@
+body{
+  background-color: cornflowerblue;
+display:flex;
+justify-content: center;
+height:100vh;
+width:100vw;  
+align-items: center;
+overflow:hidden;
+flex-direction: column;
+font-size: 1.3rem;
+font-weight: bold;
+color:aliceblue;
+}
+
+#root{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+input,button,span{
+  outline:none;
+  border:none;
+  height:50px;
+   margin-top:10px;
+   width:250px;
+
+}
+
+table tr,th,td{
+  border:2px solid black;
+
+}
+
+th,td{
+  padding:8px 12px;
+  background-color: lightseagreen;
+  
+}
+
